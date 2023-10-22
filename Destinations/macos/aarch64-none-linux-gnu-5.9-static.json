@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "sdk": "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/",
+    "sysroot-flag": "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/",
+    "toolchain-bin-dir": "/Library/Developer/Toolchains/swift-5.9-RELEASE.xctoolchain/usr/bin",
+    "target": "aarch64-unknown-linux-gnu",
+    "dynamic-library-extension": "so",
+    "extra-cc-flags": [
+        "--sysroot=/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/aarch64-none-linux-gnu/libc",
+        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/aarch64-none-linux-gnu/include/c++/12.2.1",
+        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/aarch64-none-linux-gnu/include/c++/12.2.1/aarch64-none-linux-gnu"
+    ],
+    "extra-swiftc-flags": [
+        "-target", "aarch64-unknown-linux-gnu",
+        "-use-ld=/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/linker/macos_arm64/ld.gold",
+        "-tools-directory", "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/lib/gcc/aarch64-none-linux-gnu/12.2.1",
+        "-sdk", "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/aarch64-none-linux-gnu/libc",
+        "-resource-dir", "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/usr/lib/swift_static",
+        "-L", "/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/lib/gcc/aarch64-none-linux-gnu/12.2.1/"
+    ],
+    "extra-cpp-flags": [
+        "--sysroot=/Library/Developer/Runtimes/swift-5.9-runtime-aarch64-none-linux-gnu/toolchain/aarch64-none-linux-gnu/libc",
+    ],
+}
